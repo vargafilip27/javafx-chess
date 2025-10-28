@@ -1,4 +1,7 @@
-package cz.filipvarga.chess.game;
+package cz.filipvarga.chess.game.tile;
+
+import cz.filipvarga.chess.game.Figure;
+import cz.filipvarga.chess.game.PlayingSide;
 
 public class FigureTile implements Tile {
     private final Figure figure;
