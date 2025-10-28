@@ -1,4 +1,4 @@
-package cz.filipvarga.chess;
+package cz.filipvarga.chess.game;
 
 // Represents move of figure over given distance on XY axis
 public class Offset2D {

@@ -1,4 +1,4 @@
-package cz.filipvarga.chess;
+package cz.filipvarga.chess.game;
 
 public class Figure {
     private final String name;

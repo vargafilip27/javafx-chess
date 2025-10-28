@@ -10,4 +10,6 @@ module cz.filipvarga.chess {
 
     opens cz.filipvarga.chess to javafx.fxml;
     exports cz.filipvarga.chess;
+    exports cz.filipvarga.chess.game;
+    opens cz.filipvarga.chess.game to javafx.fxml;
 }
