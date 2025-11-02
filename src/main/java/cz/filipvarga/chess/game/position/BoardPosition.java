@@ -17,6 +17,19 @@ public class BoardPosition implements Position {
         this.row = row;
     }
 
+    // Uses chess position coordinates (a2, e1...)
+    public BoardPosition(int dimension, String coordinates) {
+        this.dimension = dimension;
+
+        if (coordinates.length() < 2) throw new IllegalArgumentException();
+
+        char column = coordinates.charAt(0);
+        int row = Integer.parseInt(coordinates.substring(1));
+
+        this.column = (int)(column - 'a');
+        this.row = row;
+    }
+
     @Override
     public int getColumn() {
         return column;
