@@ -1,4 +1,7 @@
-package cz.filipvarga.chess.game;
+package cz.filipvarga.chess.game.position;
+
+import cz.filipvarga.chess.game.Offset2D;
+import cz.filipvarga.chess.game.PlayingSide;
 
 import java.util.List;
 

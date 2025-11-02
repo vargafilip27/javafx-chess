@@ -1,5 +1,7 @@
 package cz.filipvarga.chess.game;
 
+import cz.filipvarga.chess.game.position.BoardPosition;
+import cz.filipvarga.chess.game.position.Position;
 import cz.filipvarga.chess.game.tile.BoardTile;
 import cz.filipvarga.chess.game.tile.Tile;
 
